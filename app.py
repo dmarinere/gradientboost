@@ -34,7 +34,7 @@ def main():
         st.markdown("\nIf you want to know more about our model performance, \nselect what you would want to know")
         sel = st.radio("Please select what you would like to know", ["None","More about the data", "Model used and accuracy"])
         if sel == "More about the data":
-            st.markdown("This data was gotten from PropertyProNG we used requests-html library to scrap the data /n[github repo](https://github.com/Okeybukks/Lagos-House-Predictor)")
+            st.markdown("This data was gotten from PropertyProNG we used requests-html library to scrap the data")
         if sel == "Model used and accuracy":
             st.markdown("The model used for this was catboost Regressor")
 
