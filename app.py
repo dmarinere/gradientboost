@@ -32,11 +32,11 @@ def main():
         st.markdown("To run our model please choose model in Action in the sidebar")
     
         st.markdown("If you are interested in finding out more about this model click the select box below\n it tells you more about the model or how the data was gotten")
-        st.markdown("\nIf you want to know more about our model performance, \nselect what you would want to know")
-        sel = st.radio("Please select what you would like to know", ["None","More about the data", "Model used and accuracy"])
+        st.markdown("\nIf you want to know more about our model, \nselect what you would want to know")
+        sel = st.radio("Please select what you would like to know", ["None","More about the data", "Model used"])
         if sel == "More about the data":
             st.markdown("This data was gotten from PropertyProNG we used requests-html library to scrap the data")
-        if sel == "Model used and accuracy":
+        if sel == "Model used":
             st.markdown("The model used for this was catboost Regressor")
 
     if new == "Model in Action":
