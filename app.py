@@ -35,6 +35,8 @@ def main():
         sel = st.radio("Please select what you would like to know", ["None","More about the data", "Model used and accuracy"])
         if sel == "More about the data":
             st.markdown("This data was ")
+        if sel == "Model used and accuracy":
+            st.markdown("The model used for this was 
 
     if new == "Model in Action":
         st.title("House rent price prediction model for selected locations in Lagos")
