@@ -1,3 +1,4 @@
 pandas
+catboost
 streamlit
 dill
