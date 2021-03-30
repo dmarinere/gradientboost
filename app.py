@@ -26,7 +26,7 @@ def main():
     
     new = st.sidebar.selectbox("Would you want details on the model and the data used or see it in Action", ["Model and Data Description", "Model in Action"])
     if new == "Model and Data Description":
-        st.title('Lagos state House Predictor')
+        st.title('Lagos state House rent Predictor')
         st.subheader('An application to give you an estimate of house rent in selected locations in Lagos.')
         st.subheader("This Dashboard would help you understand how this model works and data used")
         st.markdown("To run our model please choose model in Action in the sidebar")
