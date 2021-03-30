@@ -16,7 +16,7 @@ def analysis(bed, bath, toilet, propertytype, area, parkingspace,
        'Security Doors': [d_dict[securitydoors]] , 'CCTV': [d_dict[cctv]], 'BQ':[d_dict[bq]], 'Gym': [d_dict[gym]], 'Pool':[d_dict[pool]]})
     with gzip.open('model.dill.gzip', 'rb') as f:
         model = dill.load(f)
-    print(data)
+   # print(data)
     prediction = (model.predict(data)[0]).round(-3)  
     return prediction
 
