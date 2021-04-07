@@ -1,4 +1,10 @@
-# A repository containing all our work for Group 1 
+# repository for group 1
+
+This github repository contains all the work we did
+
+1. A [notebook](https://github.com/dmarinere/gradientboost/blob/main/Project_the_GradientBoost.ipynb) containing data cleaning process and model creation  
+2. The model zip file 
+3. The [code](https://github.com/dmarinere/gradientboost/blob/main/app.py) used for the streamlit deployment 
 
 
 Group member 
@@ -16,6 +22,11 @@ This project focused on creating a model that can help people make decision when
 3. Lekki 
 4. Ajah 
 5. Ikorodu 
+
+
+# Model Deployment and 
+
+
 
 
 # Project Deployment 
