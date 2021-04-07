@@ -18,4 +18,7 @@ This project focused on creating a model that can help people make decision when
 5. Ikorodu 
 
 
+# Project Deployment 
+
+Here is a [link](https://share.streamlit.io/dmarinere/gradientboost/main/app.py) that takes you to a website where this project was deployed 
 
